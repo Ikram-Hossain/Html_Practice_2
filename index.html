@@ -7,9 +7,9 @@
 </head>
 <body>
 
-    //label is used to define a lable for an input element.
+    <!-- //label is used to define a lable for an input element. -->
     <label for="Username">Username:</label>
-
+ 
     
     <input 
     type="text" 
@@ -17,11 +17,29 @@
     name="Username" 
     placeholder="Enter Your Name">
 
-    //input
-    //type - is for define, what type of input we want to take from user.
-    //id   - for the browser to identify. Match with lable.
-    //name - is for the server to identify.
+    <!-- //input
+    //type - is for define, tells browser what is it.[box,button,checkbox, etc.]
+    //id   - for the browser to identify. #Match/connect with lable. [for = id. id = for.]
+    //name - tells the server who the data belongs to. [create variable and take user input and put it in variable and sent server. name = variable name.]
     //placeholder - is for the user to understand, what to enter in the input.
+    //value - Real data that stays in the box (and goes to the server).#Permanent -->
+
+
+    <h1>Input</h1>
+    <form>
+        <label for="FirstName">First Name:</label>
+        <input type="text" id="FirstName" name="FirsName" placeholder="Enter Your First Name">
+        <br>
+        <label for="LastName">Last Name:</label>
+        <input type="text" id="LastName" name="LastName" placeholder="Enter Your Last Name">
+        <br>
+        <input type="submit" value="Submit">
+    </form> 
+
+    
+
+
+
 
 
     
